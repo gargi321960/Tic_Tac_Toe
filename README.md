@@ -1,2 +1,2 @@
 # Tic_Tac_Toe
-![alt tag](Tic_Tac_Toe/image.PNG)
+![alt tag](main/Tic_Tac_Toe/image.PNG)
