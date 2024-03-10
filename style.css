@@ -4,8 +4,10 @@
 }
 body
 {
-    background-color: #cbe3f8;
-    text-align: center
+    background: linear-gradient(to bottom, #99ccff 0%, #ff66ff 100%);
+    text-align: center;
+    background-repeat:no-repeat;
+    height:100vh;
 }
 h1{
     padding-top: 5vw;
@@ -31,11 +33,10 @@ h1{
 {
     height: 18vmin;
     width: 18vmin;
-    border: none;
-    background-color: rgb(63, 109, 159);
-    border-radius:12rem;
+    background-color:#409ecd;
+    border-radius:3rem;
     box-shadow: 0 0 1rem rgba(33, 33, 35, 0.4);
-    font-size: 9vmin;
+    font-size: 10vmin;
     color: #b0413e;
 }
 .reset_btn{
