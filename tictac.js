@@ -27,6 +27,7 @@ const winPatterns = [
   
       if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
         if (pos1Val === pos2Val && pos2Val === pos3Val) {
+          disableBoxes();
          setTimeout(showWinner,1000,pos1Val);
           return true;
         }
