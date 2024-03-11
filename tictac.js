@@ -27,7 +27,7 @@ const winPatterns = [
   
       if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
         if (pos1Val === pos2Val && pos2Val === pos3Val) {
-          showWinner(pos1Val);
+         setTimeout(showWinner,1000,pos1Val);
           return true;
         }
       }
@@ -79,7 +79,7 @@ boxes.forEach((box) =>{
         let isWinner = checkWinner();
         
         if (count === 9 && !isWinner) {
-            gameDraw();
+            setTimeout(gameDraw,1000);
           }
     });
    
